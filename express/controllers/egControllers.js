@@ -1,4 +1,4 @@
-const Todo= require('../models/todo')
+const Todo= require('../models/Todo')
 
 exports.getRoute=async(req,res)=>{
     const todoList = await Todo.find();
