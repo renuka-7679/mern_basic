@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "6836d09594fbb741d608e041"
+  },
+  "name": "SND",
+  "Dept": "CTUG",
+  "Salary": 25000,
+  "DOB": "10.05.1990",
+  "email": "nandhinidevi@gmail.com",
+  "status": {
+    "isActive": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6836d1e394fbb741d608e042"
+  },
+  "name": "NTR",
+  "Dept": "CTUG",
+  "Salary": 25000,
+  "DOB": "10.05.1980"
+},
+{
+  "_id": {
+    "$oid": "6836d1e394fbb741d608e043"
+  },
+  "name": "KS",
+  "Dept": "CTUG",
+  "Salary": 25000
+},
+{
+  "_id": {
+    "$oid": "6836dcd494fbb741d608e046"
+  },
+  "name": "KK",
+  "Dept": "CTUG",
+  "Salary": 10000,
+  "DOB": "10.05.1990",
+  "status": {
+    "isActive": true
+  }
+}]
