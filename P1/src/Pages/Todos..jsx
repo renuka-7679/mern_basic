@@ -3,7 +3,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import { useEffect } from 'react'
 
-const API='http://localhost:3000';
+const API='https://mern-basic-q871.onrender.com';
 const Todos = () => {
     const [todos,setTodos] =useState([])
     const [task,setTask]=useState('')
@@ -45,9 +45,6 @@ const Todos = () => {
         })
         fetchTodos()
     }
-
-
-
 
    return (
     <div>

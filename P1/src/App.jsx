@@ -8,6 +8,9 @@ import { useEffect } from "react";
 import Effect from "./Pages/Hooks/Effect";
 import Ref from "./Pages/Hooks/Ref"
 import Todos from "./Pages/Todos.";
+import Signup from "./Pages/components/signup";
+import Login from "./Pages/components/login";
+
 
 
 
@@ -24,12 +27,16 @@ function App(){
 
   <Navbar/>
   <Routes>
-    <Route path="/H" element ={<Home name={name}/>}/>
+    <Route path="/" element ={<Home name={name}/>}/>
     <Route path="/About" element ={<About/>}/>
     <Route path="/state" element ={<State/>}/>
      <Route path="/effect" element ={<Effect/>}/>
      <Route path="/ref" element ={<Ref/>}/>
       <Route path="/todos" element ={<Todos/>}/>
+      <Route path="/Login" element ={<Login/>}/>
+      <Route path="/Signup" element ={<Signup/>}/>
+      
+
      
 
   </Routes>
