@@ -9,7 +9,7 @@ import Effect from "./Pages/Hooks/Effect";
 import Ref from "./Pages/Hooks/Ref"
 import Todos from "./Pages/Todos.";
 import Signup from "./Pages/components/Signup";
-import Login from "./Pages/components/login";
+import Login from "./Pages/components/Login";
 
 
 
