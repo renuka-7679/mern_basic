@@ -8,7 +8,7 @@ import { useEffect } from "react";
 import Effect from "./Pages/Hooks/Effect";
 import Ref from "./Pages/Hooks/Ref"
 import Todos from "./Pages/Todos.";
-import Signup from "./Pages/components/signup";
+import Signup from "./Pages/components/Signup";
 import Login from "./Pages/components/login";
 
 
